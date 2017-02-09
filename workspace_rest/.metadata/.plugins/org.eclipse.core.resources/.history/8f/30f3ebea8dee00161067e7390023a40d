@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+
+<context:annotation-config/>
+<context:component-scan base-package="com.psl"/>
+<bean class="com.psl.bean.Employee" id="emp1" lazy-init="true" init-method="abc" destroy-method="pqr" autowire="byType">
+
+<property name="id" value="3"/>
+<property name="name" value="Jack"/>
+<property name="age" value="23"/>
+
+</bean>
+<bean class="com.psl.bean.Employee" id="emp2" >
+
+<property name="id" value="4"/>
+
+<property name="name" value="Jill"/>
+<property name="age" value="23"/>
+
+</bean>
+
+<!-- <bean class="com.psl.service.EmployeeService" id="service">
+<property name="dao" ref="dao"/>
+</bean> -->
+
+<bean class="com.psl.dao.EmployeeDaoImpl" id="dao">
+<!-- <property name="template" ref="template"/> -->
+</bean>
+
+<bean class="org.springframework.jdbc.core.JdbcTemplate" id="template">
+<property name="dataSource" ref="ds"/>
+</bean>
+
+<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="ds">
+<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+<property name="url" value="jdbc:mysql://localhost:3306/testemp"/>
+<property name="username" value="root"/>
+<property name="password" value="root"/>
+</bean>
+
+
+</beans>

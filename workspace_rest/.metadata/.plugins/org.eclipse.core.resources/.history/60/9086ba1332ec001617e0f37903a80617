@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="bean.Employee" id="emp">
+	
+	<!-- Setter Injection -->
+	<property name="name" value="jack"></property>
+	<property name="age" value="5"></property>
+	<property name="addr" ref="addr"></property> 
+	</bean>
+	<bean class="bean.Address" id="addr">
+	<property name="street" value="MG Road"></property>
+	<property name="city" value="Pune"></property>
+	<property name="zip" value="4400127"></property>
+	</bean>
+</beans>

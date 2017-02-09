@@ -1,0 +1,50 @@
+package bean;
+
+public class Employee {
+
+	private String name;
+	private int age;
+	private Address addr;
+	public Employee() {
+		System.out.println("In Employee----> Default Constructor");
+	}
+	public Employee(String name, int age, Address addr) {
+		super();
+		System.out.println("In Employee----> Param Constructor");
+		this.name = name;
+		this.age = age;
+		this.addr = addr;
+	}
+	public String getName() {
+		System.out.println(" get name called");
+		return name;
+	}
+	public void setName(String name) {
+		System.out.println(" set name called");
+		this.name = name;
+	}
+	public int getAge() {
+		System.out.println("Get age Called");
+		return age;
+	}
+	public void setAge(int age) {
+		System.out.println("Set age Called");
+		this.age = age;
+	}
+	public Address getAddr() {
+		System.out.println("Get Addresss acalled");
+		return addr;
+	}
+	public void setAddr(Address addr) {
+		System.out.println("Set Addresss acalled");
+		this.addr = addr;
+	}
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", age=" + age + ", addr=" + addr
+				+ "]";
+	}
+	
+	
+	
+}

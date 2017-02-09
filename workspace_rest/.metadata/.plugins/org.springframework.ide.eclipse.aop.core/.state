@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="ABCSpringMVC"/>
+<aop-project name="firsttSpringProject"/>
+<aop-project name="secondSpring Project"/>
+</aop-reference-model>

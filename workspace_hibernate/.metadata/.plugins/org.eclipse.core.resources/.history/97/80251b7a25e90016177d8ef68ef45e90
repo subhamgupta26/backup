@@ -1,0 +1,51 @@
+package com.psl.main;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.psl.bean.Account;
+import com.psl.bean.User;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		 User u1=new User("Warren Buffet");
+		 User u3=new User("Bill Gates");
+		 User u4=new User("Larry Ellison");
+		 User u5=new User("Mukesh Ambani");
+		 User u2=new User("Elon musk");
+		 
+		 u1.addAccount(new Account(234.45));
+		 u1.addAccount(new Account(3456.23));
+		 
+		 u2.addAccount(new Account(3456.23));
+		 u2.addAccount(new Account(456.23));
+		 u2.addAccount(new Account(3456.3));
+		 
+		 u3.addAccount(new Account(346.23));
+		 
+		 u4.addAccount(new Account(345.23));
+		 
+		 u4.addAccount(new Account(356.23));
+		 
+		 
+		 
+		// System.out.println(c2.getContactId());
+		 Configuration configuration=new Configuration().configure();
+		 SessionFactory sf=configuration.buildSessionFactory();
+		 Session session=sf.openSession();
+		 Transaction tx;
+		 tx=session.beginTransaction();
+		 session.save(c1);
+		 session.save(c2);
+		//System.out.println(c2.getContactId());
+		 tx.commit();
+		 session.close();
+		// System.out.println(c2.getContactId());
+		 sf.close();
+
+	}
+}

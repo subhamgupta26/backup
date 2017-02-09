@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.net,1.2.0.I20090430-0408,"org.eclipse.ui.net",1485837463968
+started,bundle,org.eclipse.ui.views,3.4.0.I20090525-2000,"org.eclipse.ui.views",1485837463968
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.ui.views.log",1485837463968
+started,bundle,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"org.eclipse.ui.workbench",1485837463968
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1485837463968
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1485837463968
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1485837464015
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1485837464015
+started,bundle,org.eclipse.wst.common.frameworks,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks",1485837464015
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.0.v200906080535,"org.eclipse.wst.common.project.facet.core",1485837464015
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1485837464015
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1485837464015
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.100.v20090520-1905,"org.eclipse.equinox.simpleconfigurator",1485837464015
+os,sysinfo,,,"win32",1485837464031
+arch,sysinfo,,,"x86",1485837464031
+ws,sysinfo,,,"win32",1485837464031
+locale,sysinfo,,,"en_US",1485837464031
+processors,sysinfo,,,"1",1485837464031
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1485837464031
+java.runtime.version,sysinfo,,,"1.6.0_24-b07",1485837464031
+java.specification.name,sysinfo,,,"Java Platform API Specification",1485837464031
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1485837464031
+java.specification.version,sysinfo,,,"1.6",1485837464031
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1485837464031
+java.version,sysinfo,,,"1.6.0_24",1485837464031

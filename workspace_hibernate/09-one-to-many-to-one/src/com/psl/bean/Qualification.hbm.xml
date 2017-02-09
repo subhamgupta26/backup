@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 2, 2017 10:31:51 AM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.psl.bean.Qualification" table="tbl_qualification">
+        <id name="qualificationId" type="int">
+            <column name="QUALIFICATIONID" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <set name="profiles" table="tbl_profiles_qualifications" >
+            <key>
+                <column name="QUALIFICATIONID" />
+            </key>
+            <many-to-many class="com.psl.bean.Profile" column="PROFILEID"/>
+        </set>
+    </class>
+</hibernate-mapping>

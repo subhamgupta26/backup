@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.info,sysinfo,,,"mixed mode, sharing",1485837464031
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1485837464031
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1485837464031
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1485837464031
+java.vm.specification.version,sysinfo,,,"1.0",1485837464031
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1485837464031
+java.vm.version,sysinfo,,,"19.1-b02",1485837464031
+started,bundle,org.hibernate.eclipse.jdt.ui,3.3.1.v201006011046R-H111-GA,"org.hibernate.eclipse.jdt.ui",1485837464389
+started,bundle,org.hibernate.eclipse,3.3.1.v201006011046R-H111-GA,"org.hibernate.eclipse",1485837464998
+started,bundle,org.hibernate.eclipse.console,3.3.1.v201006011046R-H111-GA,"org.hibernate.eclipse.console",1485837465045
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1485837465107
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1485837465388
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1485837465404
+started,bundle,org.eclipse.jdt.apt.core,3.3.200.v20090528-1135,"org.eclipse.jdt.apt.core",1485837465466
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.200.v20090526-2130,"org.eclipse.jdt.apt.pluggable.core",1485837465482
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1485837465528
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1485837520464
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1485837550017
+started,bundle,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui",1485837552434
+started,bundle,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui",1485837552460
+started,bundle,org.eclipse.wst.sse.core,1.1.400.v200905141750,"org.eclipse.wst.sse.core",1485837552520
+started,bundle,org.eclipse.wst.xml.core,1.1.400.v200904300540,"org.eclipse.wst.xml.core",1485837552566
+started,bundle,org.hibernate.eclipse.mapper,3.3.1.v201006011046R-H111-GA,"org.hibernate.eclipse.mapper",1485837552854
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.301.v200805140415,"org.eclipse.wst.common.uriresolver",1485837552866
+started,bundle,org.eclipse.jst.jsp.ui,1.1.400.v200904292008,"org.eclipse.jst.jsp.ui",1485837553227
